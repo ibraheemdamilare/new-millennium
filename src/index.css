@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Fredoka&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+.heading {
+  color: red;
+  font-family: "Poppins";
+  font-size: 40px;
+  text-align: center
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.left {
+  position: absolute;
+  right: 0;
+}
+.icon-text {
+font-family: "Poppins";
+color: blue;
+font-weight: 700;
+
+}
+.navbar {
+  border-bottom: 2px solid gray;
+  margin-bottom: 100px;
+  position: fixed;
+  width: 95vw;
+}
+.icon-text-new {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon {
+  color: #0093E9;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.header {
+  font-family: "Raleway";
+  text-align: center;
+}
+.head-contain {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 100px
+}
+.subhead-contain {
+  width: 85%;
+  margin: 0 auto;
+}
+.subhead {
+  text-align: left;
+  font-family: "Poppins";
+}
+.subhead-h5 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+img {
+  width: 100%;
+}
+.body {
+  margin-top: 60px;
+  text-align: left;
+  font-family: "Poppins";
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 60%);
+
+}
+
+li {
+  text-align: left;
+  margin-top: 5px;
+  font-family: "Poppins";
+}
+.number {
+  margin-top: 30px;
+}
+.icon-bg {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-icon {
+  width: 50px;
+  height: 50px;
+}
+.item {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.topic {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.topic-body {
+  text-align: center;
+  width: 70%;
+  margin: 10px auto;
+}
+.healing-image {
+
+  margin-bottom: 50px;
+}
+.church-service {
+  margin-top: 60px;
+  padding-bottom: 50px;
+  text-align: left;
+
+}
+.icon-heading {
+  margin-bottom: 40px;
+ 
+}
+.heading-text {
+  font-family: "Raleway";
+  color: darkmagenta;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.body-text {
+  margin-top: -15px;
+  margin-left: 30px;
+}
+.padding {
+  padding-bottom: 20px;
+}
+.biography {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.biography-body {
+  text-align: left;
+  width: 85%;
+  margin: 30px auto;
+}
+.italics {
+  font-style: italic;
+}
+.bottom-section {
+  text-align: center;
+  margin-top: 20px;
+}
+.bottom-head {
+  font-family: "Raleway";
+  color: #1700e9;
+  font-weight: 700;
+  font-size: 30px;
+  width: 65%;
+  line-height: 50px;
+  margin: 0 auto;
+}
+.alert {
+  color: green;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-align: center;
+}
+.bottom-body {
+  font-family: "Poppins";
+  font-size: 18px;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 20px;
+}
+.apply {
+  font-family: "Raleway";
+  border: 2px solid black;
+  margin: 30px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer {
+  background-color: rgb(190, 188, 188);
+}
+.contact {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: large;
+}
+.email {
+  font-family: "Poppins";
+  color: #1700e9;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+.form {
+  margin-top: 60px;
+  padding-left: 15px;
+}
+input {
+  width: 90%;
+  margin-top: 20px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  font-family: "Poppins";
+}
+input::placeholder {
+  color: black;
+}
+.body-input {
+  width: 90%;
+  margin-top: 20px;
+  height: 90px;
+  border: 1px solid black;
+  background-color: white;
+  font-family: "Poppins";
+  position: relative;
+}
+.body-input::placeholder {
+  color: black;
+  position: absolute;
+  top: 0;
+}
+label {
+  color: black;
+  font-family: "Raleway";
+  font-weight: bolder;
+}
+.submit {
+  font-family: "Raleway";
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.copyright {
+  font-family: "poppins";
+  color: black;
+  margin-top: 30px;
+  width: 300px;
+}
+ul {
+  list-style: none;
+}
+.navbar-list-bg ul li {
+  text-align: center;
+  color: white;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.navbar-list-bg ul li a {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.apply a {
+  color: black;
+}
+.red {
+  color: red;
+}
+.navbar-list-bg {
+  position: relative; 
+  
+}
+.navbar-list-bg ul{
+  position: absolute;
+  right: 0;
+  background-color: gray;
+  width: 95vw;
+  margin-top: 73px;
+}
+@media screen and (min-width: 760px) {
+  .church-service {
+    text-align: center;
+  
+  }
+  input {
+    width: 95%;
+  }
+  .body-input {
+    width: 95%;
+  }
+}
